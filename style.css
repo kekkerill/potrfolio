@@ -1,0 +1,178 @@
+*{
+    font-family: Space Mono,monospace;
+}
+a{
+    text-decoration: none;
+}
+.nav{
+    color: #55617c;
+}
+.cian{
+    color: #55dad0;
+}
+.progress-bar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 4px;
+    width: 0%;
+    background: #55dad0;  
+}
+body{
+    margin: 0;
+}
+.logo{
+    color: white;
+}
+.logo-img{
+    border-radius: 20px;
+    height: 50px;
+}
+header{
+    align-items: center;
+    padding: 10px 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 70px;
+    background-color: rgba(10,25,47,255);
+}
+.links{
+    color: #55617c;
+}
+.link-item{
+    margin-right: 25px; /* Отступ слева */
+    padding: 3px; /* Поля вокруг текста */
+    display: inline;
+}
+main{
+    padding-top: 100px;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex: 1 1 auto;
+    background-color: #14253d;
+    flex-direction: column;
+}
+.main-hello{
+    width: 50%;
+    flex-direction: column;
+    
+    display: flex;
+    align-items: flex-start;
+    justify-content: left;
+}
+.hello-upline{
+    color: #4abda9;
+}
+.hello-name{
+    font-size: 5rem;
+}
+.hello-undername{
+    color: #8892b0;
+    font-size: 3rem;
+}
+.hello-github-btn{
+    margin-top: 80px;
+    
+}
+.github-btn{
+    
+    background-color: transparent;
+    padding: 15px;
+    border-radius: 4px;
+    border: 1px solid #4abda9;
+    font-size: 14px;
+    color: #4abda9;
+    text-decoration: none;
+}
+.github-btn:hover{
+    background-color: #233554;
+}
+.about{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    padding-top: 400px;
+    padding-left: 350px;
+    padding-bottom: 350px;
+}
+.about-title{
+    font-size: 3rem;
+}
+.title{
+    font-size: 2em;
+    color: #55dad0;
+}
+.portfolio-img{
+    margin-top: 50px;
+    width: 350px;
+    height: 350px;
+    border-radius: 5px;
+}
+.about-description{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.about-text{
+    color: #8892b0;
+    font-size: 1em;
+    padding-top: 40px;
+}
+.about-list-title{
+    font-size: 20px;
+    padding-top: 30px;
+}
+.about-list{
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    padding-top: 25px;
+    width: 421px;
+    height: 10em;
+}
+.about-list-item{
+    width: 210px;
+    height: 46px;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    margin-bottom:200px; 
+}
+.contact-title{
+    text-align: left;
+    font-size: 2em;
+}
+.contact-text{
+    color:#8892b0;
+    margin-top: 40px;
+}
+.contact-btns{
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.contact-href{
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: 1px solid #4abda9;
+    color: #4abda9;
+}
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #14253d;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #4abda9};
